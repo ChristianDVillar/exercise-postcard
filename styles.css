@@ -2,11 +2,12 @@ body {
 	background: black;
 }
 * {
-	border: 1px dashed red;
+	/*border: 1px dashed red;*/
 	min-height: 10px;
 }
 p {
-	color: blue;
+	font-size: small;
+	font-family: Comic Sans MS;
 }
 .postcard {
 	/* your styles here */
@@ -14,18 +15,22 @@ p {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 10px;
 }
 .postcard-header {
 	display: flex;
-}
-.postcard-header img {
-	width: 50x;
-	height: 50x;
+	justify-content: center;
 }
 .postcard-header h1 {
-	width: x;
-	margin: x;
+	font-family: Comic Sans MS;
+	width: 1950px;
+	margin: 1px;
 }
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
 .postcard-body {
 	display: flex;
 }
@@ -37,8 +42,10 @@ p {
 	padding: x;
 }
 input {
-	border: x;
-	border-bottom: x;
+	border: auto;
+	border-top: gray 1px;
+	border-left: gray 1px;
+	border-right: gray 1px;
 }
 .postcard-footer {
 	text-align: center;
